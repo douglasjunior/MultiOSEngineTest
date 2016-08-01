@@ -40,12 +40,14 @@ test { exclude '**' }
 
 // Setup MOE
 moe {
+    xcode.deploymentTarget = '8.1'
     xcode.mainTarget = 'MultiOSEngineTest'
     xcode.testTarget = 'MultiOSEngineTest-Test'
-    xcode.packageName = 'com.douglasjunior.multiosenginetest'
+    xcode.packageName = 'com.github.douglasjunior.multiosenginetest'
     xcode.launchScreenFilePath = 'src/main/resources/LaunchScreen.xib'
     xcode.bundleID = 'com.github.douglasjunior.MultiOSEngineTest'
-
+    xcode.bundleVersion = project.versionCode
+    xcode.bundleShortVersionString = project.versionName
 }
 
 // Set dependencies
@@ -54,6 +56,3 @@ dependencies {
     compile fileTree(include: '*.jar', dir: 'lib')
     compile project(':common')
 }
-
-
-

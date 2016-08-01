@@ -1,4 +1,4 @@
-package com.douglasjunior.multiosenginetest.ui;
+package com.github.douglasjunior.multiosenginetest.ui;
 
 import com.intel.moe.natj.general.Pointer;
 import com.intel.moe.natj.general.ann.Owned;

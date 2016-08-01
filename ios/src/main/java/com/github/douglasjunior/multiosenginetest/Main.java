@@ -1,6 +1,4 @@
-package com.douglasjunior.multiosenginetest;
-
-import com.douglasjunior.multiosenginetest.ui.AppViewController;
+package com.github.douglasjunior.multiosenginetest;
 
 import ios.NSObject;
 import ios.foundation.NSDictionary;
